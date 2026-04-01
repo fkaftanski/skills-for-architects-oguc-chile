@@ -1,2 +1,3 @@
 # Plugin 08 – Normativa Sísmica
-Skills NCh433, NCh461 y DS 61 (edificios esenciales).
+
+Skills especializadas en NCh433, NCh461 y DS 61 (edificios esenciales).

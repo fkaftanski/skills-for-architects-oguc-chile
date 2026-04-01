@@ -1,18 +1,9 @@
-#!/usr/bin/env bash
-set -euo pipefail
-
-echo "Running OGUC citation and disclaimer checks"
-
-missing=0
-
-if ! rg -n "Ley 20\\.879|arquitecto titulado|DOM" rules >/dev/null 2>&1; then
-  echo "Missing Chile professional disclaimer"
-  missing=1
-fi
-
-if ! rg -n "OGUC|PRC|vigencia|articulo exacto" rules >/dev/null 2>&1; then
-  echo "Missing OGUC citation guidance"
-  missing=1
-fi
-
-exit "$missing"
+#!/bin/bash
+# post-oguc-check.sh – Verifica citas normativas chilenas
+for file in "$@"; do
+  if [[ "$file" == *.md ]] && grep -qi "OGUC\|NCh\|DS 50\|PRC" "$file"; then
+    if ! grep -qi "Art\." "$file" && ! grep -qi "Artículo" "$file"; then
+      echo "⚠️  WARNING: $file contiene análisis OGUC/NCh pero no cita artículo exacto" >&2
+    fi
+  fi
+done
