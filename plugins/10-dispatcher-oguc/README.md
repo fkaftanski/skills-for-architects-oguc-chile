@@ -1,3 +1,3 @@
-# 10-dispatcher-oguc
+# Plugin 10 – Dispatcher OGUC
 
-Router inicial para despachar consultas hacia due diligence, zoning, sostenibilidad y normativa tecnica chilena.
+Plugin de apoyo para el router OGUC Chile. El entrypoint activo del estudio está en `agents/10-dispatcher-oguc/dispatcher-oguc.md`.

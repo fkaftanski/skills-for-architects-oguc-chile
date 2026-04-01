@@ -4,14 +4,14 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**8 agents**, **42 skills**, **9 rules** y **3 hooks** organizados por ciclo de proyecto chileno.  
+**8 agents especialistas + 1 dispatcher**, **42 skills**, **9 rules** y **4 hooks** organizados por ciclo de proyecto chileno.  
 Creado por un **Arquitecto OGUC** con 15+ años de experiencia.
 
 ## Arquitectura (Chile)
 
 ```text
 /studio → router OGUC
-├── agents/ (8)
+├── agents/ (9)
 │   ├── site-planner
 │   ├── chile-due-diligence-expert          ← NUEVO
 │   ├── chile-zoning-expert                ← NUEVO
@@ -20,6 +20,7 @@ Creado por un **Arquitecto OGUC** con 15+ años de experiencia.
 │   ├── ffe-designer
 │   ├── sustainability-specialist (adaptado DS 50 + CES)
 │   └── brand-manager
+│   └── 10-dispatcher-oguc                 ← Router principal
 ├── plugins/ (11)
 │   ├── 00-due-diligence-chile
 │   ├── 01-site-planning-chile
@@ -31,15 +32,14 @@ Creado por un **Arquitecto OGUC** con 15+ años de experiencia.
 │   ├── 07-presentations
 │   ├── 08-normativa-sismica               ← NUEVO
 │   ├── 09-eficiencia-energetica           ← NUEVO
-│   └── 10-dispatcher-oguc
 ├── rules/ (9)
-└── hooks/
+└── hooks/ (4)
 ```
 
 ## Instalación inmediata (Claude Desktop)
 
 1. Abre **Customize** → **Browse plugins** → **+** → **Add marketplace from GitHub**
-2. Ingresa: `TU_USUARIO/skills-for-architects-oguc-chile`
+2. Ingresa: `fkaftanski/skills-for-architects-oguc-chile`
 
 ## Uso
 
