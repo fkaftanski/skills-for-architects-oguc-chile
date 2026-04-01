@@ -1,3 +1,2 @@
-# 02-zoning-oguc-prc
-
-Plugin para analisis OGUC y PRC con calculos normativos, estacionamientos, rasantes y envolvente 3D.
+# Plugin 02 – Zoning OGUC + PRC
+5 skills para coeficientes, rasantes, envolvente 3D y norma sísmica.

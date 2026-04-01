@@ -1,27 +1,27 @@
-# OGUC Quickstart
+# OGUC QUICKSTART – Chile Edition
 
-## Objetivo
+## Comandos más usados
 
-Usar este repositorio para analizar predios, normativa urbanistica y requerimientos de proyecto en Chile con trazabilidad normativa.
+**Due Diligence**
+- `/chile-due-diligence-report Rol SII XXX-YY-ZZZZ`
+- `/chile-conservador-bbrr Dirección completa`
 
-## Flujo recomendado
+**Zonificación OGUC**
+- `/oguc-coeficientes Dirección o Rol`
+- `/prc-rasantes-altura Comuna + dirección`
+- `/envolvente-3d-oguc Dirección`
 
-1. Reunir direccion, rol SII, comuna y region.
-2. Ejecutar due diligence predial inicial.
-3. Verificar PRC vigente y jerarquia normativa aplicable.
-4. Calcular coeficientes OGUC, rasantes, alturas y estacionamientos.
-5. Revisar normas sismicas y de eficiencia energetica aplicables.
-6. Generar informe con citas exactas y fecha de vigencia.
+**Normativa Sísmica**
+- `/nch433-analisis Dirección + número de pisos`
 
-## Fuentes minimas
+**Eficiencia Energética**
+- `/ds50-calificacion Dirección`
+- `/ces-calculo`
 
-- OGUC vigente.
-- PRC o instrumento territorial comunal vigente.
-- Certificado de informaciones previas, cuando exista.
-- Conservador de Bienes Raices.
-- SII.
-- DOM y antecedentes municipales.
+**Sostenibilidad**
+- `/epd-parser [link o PDF]`
 
-## Regla critica
+**Disclaimer obligatorio (siempre aparece)**  
+“Este análisis es asistido por IA y NO sustituye la revisión profesional de un arquitecto titulado ni la aprobación de la Dirección de Obras Municipales.”
 
-Todo analisis debe citar articulo exacto, norma exacta y fecha de vigencia. Si un dato no esta confirmado, debe marcarse como pendiente de verificacion.
+¡Listo para usar mañana!

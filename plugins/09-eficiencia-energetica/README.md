@@ -1,3 +1,2 @@
-# 09-eficiencia-energetica
-
-Plugin para eficiencia energetica y evaluacion comparativa de cumplimiento en contexto chileno.
+# Plugin 09 – Eficiencia Energética
+Skills DS 50, Calificación Energética y Huella de Carbono Chile.
