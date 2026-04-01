@@ -1,2 +1,5 @@
 # Rule: Output Formatting
-Tablas claras, listas numeradas, diagramas 3D cuando corresponda.
+- Tablas claras y legibles (Markdown)
+- Diagramas textuales o HTML 3D cuando sea posible
+- Listas numeradas para pasos
+- Resumen ejecutivo al inicio + detalle técnico al final

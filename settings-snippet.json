@@ -1,0 +1,26 @@
+{
+  "name": "Architecture Studio – OGUC Chile Edition",
+  "version": "1.0",
+  "description": "Agents, skills y rules 100% adaptados a OGUC, PRC, MINVU, NCh433 y normativa chilena",
+  "author": "Arquitecto OGUC Chile",
+  "entrypoint": "agents/10-dispatcher-oguc/dispatcher-oguc.md",
+  "rules": [
+    "rules/units-and-measurements.md",
+    "rules/code-citations.md",
+    "rules/professional-disclaimer-chile.md",
+    "rules/csi-formatting.md",
+    "rules/terminology.md",
+    "rules/output-formatting.md",
+    "rules/transparency.md",
+    "rules/oguc-citations.md",
+    "rules/oguc-responsibility.md"
+  ],
+  "hooks": [
+    "hooks/post-write-disclaimer-check.sh",
+    "hooks/post-output-metadata.sh",
+    "hooks/pre-commit-spec-lint.sh",
+    "hooks/post-oguc-check.sh"
+  ],
+  "keywords": ["OGUC", "PRC", "Chile", "arquitectura", "normativa", "due-diligence", "sismica", "DS50"],
+  "icon": "🇨🇱"
+}
