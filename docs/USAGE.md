@@ -33,3 +33,26 @@
 6. When a rule or decree is updated, add the change to `references/change-log.md` and the registry.
 7. When data is missing, use `references/source-of-truth/` to locate a verified official source before answering.
 8. Follow `references/source-lookup-protocol.md` when choosing between primary, interpretive, operational, referential, technical, or secondary sources.
+
+## Registry QA
+
+Run the registry validator with:
+
+```bash
+make validate-registry
+```
+
+Or directly:
+
+```bash
+python3 scripts/validate_registry.py
+```
+
+The validator fails with a non-zero exit code if it finds:
+
+- duplicate `id` values
+- missing required fields
+- invalid source categories
+- empty `url_canónica`
+- unknown `skill_owner` values
+- norms cited in skills that are absent from the registry

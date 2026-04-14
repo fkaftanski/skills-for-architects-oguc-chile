@@ -38,7 +38,7 @@ registry:
     jerarquía: official_interpretive
     fecha_base: null
     última_actualización_conocida: null
-    url_canónica: null
+    url_canónica: https://www.minvu.gob.cl/
     fuente_primaria: índice oficial de circulares DDU
     fuente_secundaria: null
     skill_owner: prc-rasantes-altura
@@ -53,7 +53,7 @@ registry:
     jerarquía: primary_legal
     fecha_base: null
     última_actualización_conocida: null
-    url_canónica: null
+    url_canónica: https://www.bcn.cl/leychile
     fuente_primaria: texto oficial del reglamento aplicable
     fuente_secundaria: null
     skill_owner: estacionamientos-ds-50
@@ -68,7 +68,7 @@ registry:
     jerarquía: primary_legal
     fecha_base: null
     última_actualización_conocida: null
-    url_canónica: null
+    url_canónica: https://www.bcn.cl/leychile
     fuente_primaria: texto oficial del decreto aplicable
     fuente_secundaria: null
     skill_owner: edificios-esenciales-ds61
@@ -83,11 +83,26 @@ registry:
     jerarquía: technical_reference
     fecha_base: "2026-01-01"
     última_actualización_conocida: "2026-01-01"
-    url_canónica: null
+    url_canónica: https://www.inn.cl/
     fuente_primaria: INN
     fuente_secundaria: null
     skill_owner: nch433-analisis
     notas_de_uso: Marcar NCh433:1996 Mod. 2009 como no vigente técnicamente para este repositorio de trabajo.
+    check_vigencia_required: true
+  - id: nch461
+    nombre: NCh461
+    tipo: norma técnica
+    órgano: INN
+    materia: refuerzo o intervención estructural
+    estado: vigente-por-validar
+    jerarquía: technical_reference
+    fecha_base: null
+    última_actualización_conocida: null
+    url_canónica: https://www.inn.cl/
+    fuente_primaria: INN
+    fuente_secundaria: null
+    skill_owner: nch461-refuerzo
+    notas_de_uso: Tratar como referencia técnica de refuerzo estructural y exigir validación por profesional competente antes de cualquier conclusión de diseño.
     check_vigencia_required: true
   - id: ric-decreto-08
     nombre: RIC / Decreto 08 SEC
@@ -98,7 +113,7 @@ registry:
     jerarquía: primary_legal
     fecha_base: null
     última_actualización_conocida: null
-    url_canónica: null
+    url_canónica: https://www.sec.cl/
     fuente_primaria: reglamento oficial SEC
     fuente_secundaria: null
     skill_owner: due-diligence-normativa
@@ -128,7 +143,7 @@ registry:
     jerarquía: primary_legal
     fecha_base: "2025-01-09"
     última_actualización_conocida: "2025-01-09"
-    url_canónica: null
+    url_canónica: https://www.diarioficial.cl/
     fuente_primaria: texto oficial publicado en Diario Oficial
     fuente_secundaria: null
     skill_owner: due-diligence-normativa
@@ -158,7 +173,7 @@ registry:
     jerarquía: primary_legal
     fecha_base: "2024-05-27"
     última_actualización_conocida: "2025-11-01"
-    url_canónica: null
+    url_canónica: https://www.bcn.cl/leychile
     fuente_primaria: texto oficial OGUC actualizado
     fuente_secundaria: null
     skill_owner: ces-calculo
@@ -188,7 +203,7 @@ registry:
     jerarquía: primary_legal
     fecha_base: "2012-08-24"
     última_actualización_conocida: null
-    url_canónica: null
+    url_canónica: https://www.bcn.cl/leychile
     fuente_primaria: texto oficial publicado
     fuente_secundaria: null
     skill_owner: due-diligence-normativa

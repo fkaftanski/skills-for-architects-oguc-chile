@@ -28,6 +28,7 @@ This repo packages Chile-specific architectural workflows for Codex.
 - Check that the README matches the actual tree.
 - Prefer explicit gaps over implied certainty.
 - Resolve missing data through the source lookup protocol before answering.
+- Run `make validate-registry` when editing `references/normative-registry.yml` or normative skills.
 
 ## Editorial restrictions
 
