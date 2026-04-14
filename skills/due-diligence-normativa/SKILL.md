@@ -9,15 +9,16 @@ Use this skill for property, municipal, or document due diligence in Chile.
 
 ## Operative steps
 
-1. Collect the property identifier, comuna, and all documents the user has.
-2. List what was actually reviewed.
-3. Separate:
+1. Check `references/normative-registry.yml` and `references/source-lookup-protocol.md` for the applicable body or source class.
+2. Collect the property identifier, comuna, and all documents the user has.
+3. List what was actually reviewed.
+4. Separate:
    - ownership or registry issues
    - municipal or zoning issues
    - servitudes, encumbrances, and restrictions
    - missing documents
-4. Mark unknowns explicitly.
-5. Provide a risk ranking and the next document to request.
+5. Mark unknowns explicitly.
+6. Provide a risk ranking and the next document to request.
 
 ## Output shape
 
@@ -34,3 +35,4 @@ Use this skill for property, municipal, or document due diligence in Chile.
 - Avoid fixed legal dates unless the user supplied them or you are quoting a dated source.
 - Do not imply that this replaces a lawyer, notary, or architect review.
 - State whether each cited source is primary legal, official interpretive, official operational, referential, or technical reference.
+- If missing data is needed, recover it from `references/source-of-truth/` and name the source category used.

@@ -9,10 +9,11 @@ Use this skill for a first-pass seismic screening when the user provides locatio
 
 ## Operative steps
 
-1. Identify the building type and the minimum inputs available.
-2. Note any location-specific assumptions.
-3. Summarize likely seismic considerations at a screening level.
-4. Flag when a structural engineer or formal calculation is required.
+1. Check `references/normative-registry.yml` and `references/source-lookup-protocol.md` before using NCh433 as the technical frame.
+2. Identify the building type and the minimum inputs available.
+3. Note any location-specific assumptions.
+4. Summarize likely seismic considerations at a screening level.
+5. Flag when a structural engineer or formal calculation is required.
 
 ## Output shape
 
@@ -27,3 +28,4 @@ Use this skill for a first-pass seismic screening when the user provides locatio
 - Do not provide a structural design.
 - Do not invent zone values or coefficients without a source.
 - If you need a design-grade conclusion, defer to the competent structural professional and the verified technical source.
+- If a technical reference is missing, recover it from `references/source-of-truth/` and state that the result is screening-level only.
