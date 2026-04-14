@@ -18,6 +18,7 @@ This repository packages Chile-focused architectural assistance as a Codex plugi
 - `references/source-directory-reviewed.md` - reviewed directory with keep/exclude decisions
 - `references/disclaimer-profesional-chile.md` - reusable professional disclaimer
 - `references/change-log.md` - normative change log
+- `references/source-of-truth/` - authoritative portals skills may use to recover missing data
 
 ## Design decisions
 

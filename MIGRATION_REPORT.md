@@ -22,6 +22,7 @@ It was then expanded with a normative source policy, a registry, and a review of
 - Added a third wave of skills for DS 50 parking, DS 61 essential-building screening, and OGUC envelope studies.
 - Reworded documentation to remove unsupported claims and Claude-specific installation language.
 - Added source policy, source directory review, normative registry, disclaimer, and change log.
+- Added a `references/source-of-truth/` directory for authoritative source recovery.
 
 ## Files created
 
@@ -46,6 +47,7 @@ It was then expanded with a normative source policy, a registry, and a review of
 - `references/source-directory-reviewed.md`
 - `references/disclaimer-profesional-chile.md`
 - `references/change-log.md`
+- `references/source-of-truth/README.md`
 - `docs/ARCHITECTURE.md`
 - `docs/USAGE.md`
 - `docs/NORMATIVE_AUDIT.md`
