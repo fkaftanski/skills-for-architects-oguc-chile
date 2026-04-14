@@ -1,53 +1,72 @@
-# Architecture Studio – OGUC Chile Edition
+# Architecture Studio - OGUC Chile Edition
 
-> Agents, skills y rules para arquitectos chilenos — 100 % adaptado a **OGUC, PRC, MINVU, NCh433, DS 50, DS 61, SII, Conservador, SEREMI y normativa nacional**.
+This repository packages Chile-focused architectural workflows as a Codex plugin with reusable skills, references, and documentation.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+## What it does
 
-**8 agents especialistas + 1 dispatcher**, **42 skills**, **9 rules** y **4 hooks** organizados por ciclo de proyecto chileno.  
-Creado por un **Arquitecto OGUC** con 15+ años de experiencia.
+- First-pass OGUC and PRC analysis
+- Normative due diligence
+- Preliminary technical reporting
+- Compliance and document-gap checks
 
-## Arquitectura (Chile)
+## Install
 
-```text
-/studio → router OGUC
-├── agents/ (9)
-│   ├── site-planner
-│   ├── chile-due-diligence-expert          ← NUEVO
-│   ├── chile-zoning-expert                ← NUEVO
-│   ├── workplace-strategist
-│   ├── product-and-materials-researcher
-│   ├── ffe-designer
-│   ├── sustainability-specialist (adaptado DS 50 + CES)
-│   └── brand-manager
-│   └── 10-dispatcher-oguc                 ← Router principal
-├── plugins/ (11)
-│   ├── 00-due-diligence-chile
-│   ├── 01-site-planning-chile
-│   ├── 02-zoning-oguc-prc                 ← NUEVO
-│   ├── 03-programming
-│   ├── 04-specifications
-│   ├── 05-sustainability-chile
-│   ├── 06-materials-research
-│   ├── 07-presentations
-│   ├── 08-normativa-sismica               ← NUEVO
-│   ├── 09-eficiencia-energetica           ← NUEVO
-├── rules/ (9)
-└── hooks/ (4)
-```
+1. Open the repository locally.
+2. Load the plugin from `.codex-plugin/plugin.json`.
+3. Point Codex at the repository root so it can read `skills/`, `references/`, and `docs/`.
 
-## Instalación inmediata (Claude Desktop)
-
-1. Abre **Customize** → **Browse plugins** → **+** → **Add marketplace from GitHub**
-2. Ingresa: `fkaftanski/skills-for-architects-oguc-chile`
-
-## Uso
+## Repository structure
 
 ```text
-/studio Avenida Apoquindo 4500, Las Condes
-/studio Due diligence Rol SII 123-45-6789
-/studio Analiza este plano según OGUC y PRC Providencia
-/studio Programa para oficina 120 personas
+.
+├── .codex-plugin/
+├── AGENTS.md
+├── docs/
+├── references/
+├── skills/
+├── LICENSE
+└── MIGRATION_REPORT.md
 ```
 
-`/skills` para ver todo el menú.
+## Available skills
+
+- `oguc-coeficientes`
+- `due-diligence-normativa`
+- `chile-due-diligence-report`
+- `prc-rasantes-altura`
+- `informe-tecnico-preliminar`
+- `checklist-cumplimiento`
+- `nch433-analisis`
+- `nch461-refuerzo`
+- `ces-calculo`
+- `estacionamientos-ds-50`
+- `edificios-esenciales-ds61`
+- `envolvente-3d-oguc`
+
+## How to use
+
+Use the skill that matches the task, then provide the minimum useful inputs.
+
+Examples:
+
+```text
+Analyze this site for OGUC coefficients using the area and zoning note provided.
+Prepare a normative due diligence summary for this Rol SII and list missing documents.
+Consolidate the due diligence findings into a client-ready risk report.
+Review rasantes and height constraints for this PRC excerpt.
+Draft a preliminary technical report with assumptions, findings, and risks.
+Run a compliance checklist and prioritize missing documents.
+Provide a first-pass NCh433 seismic screening for this building.
+Screen the retrofit implications of this existing structure under NCh461.
+Prepare a preliminary CES-oriented energy review and identify improvement levers.
+Estimate parking and accessibility implications under DS 50 for this mixed-use project.
+Screen whether this use may qualify as an essential building under DS 61.
+Summarize a conceptual OGUC envelope for this lot and identify open zoning questions.
+```
+
+## Limits
+
+- This repository supports technical review, not final municipal approval.
+- Regulatory conclusions require source verification.
+- Legal or professional responsibility remains with the licensed professional in charge.
+- If a PRC, OGUC article, or municipal rule is not directly supplied or verified, mark it as pending verification rather than guessing.

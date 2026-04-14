@@ -1,0 +1,9 @@
+{
+  "name": "oguc-chile-architecture-studio",
+  "displayName": "Architecture Studio - OGUC Chile",
+  "version": "1.0.0",
+  "description": "Codex plugin with reusable skills for Chilean architectural due diligence, zoning, and reporting workflows.",
+  "entrypoint": "skills/oguc-coeficientes/SKILL.md",
+  "author": "fkaftanski",
+  "repository": "https://github.com/fkaftanski/skills-for-architects-oguc-chile"
+}

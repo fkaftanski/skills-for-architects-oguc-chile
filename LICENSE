@@ -1,53 +1,21 @@
-# LICENSE
+MIT License
 
-**KA URBE IT – Architecture Studio OGUC Chile Edition**  
-**Versión 1.0 – Abril 2026**
+Copyright (c) 2026 fkaftanski
 
-## Tipo de Licencia  
-**Licencia Pública Referencial KA URBE IT**  
-(Todos pueden usar, copiar, modificar y distribuir el software)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### 1. Permisos  
-Se otorga permiso gratuito, irrevocable y sin royalties a cualquier persona para:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-- Usar este repositorio  
-- Copiarlo  
-- Modificarlo  
-- Distribuirlo  
-- Instalarlo en Claude Desktop, Cursor u otras aplicaciones de IA  
-
-### 2. Condiciones Obligatorias  
-
-**Este software se entrega bajo las siguientes condiciones estrictas:**
-
-- **Uso SOLO REFERENCIAL**  
-  Este plugin es una herramienta de apoyo y referencia. **NO es oficial** y **NO sustituye** la revisión, firma ni responsabilidad profesional de un arquitecto titulado.
-
-- **Respeto a la normativa chilena**  
-  Todo uso debe cumplir estrictamente con la **Ordenanza General de Urbanismo y Construcciones (OGUC)**, Planes Reguladores Comunales (PRC) vigentes, NCh433, DS 50, DS 61, Ley 20.879 y toda la normativa MINVU, SII, Conservador de Bienes Raíces y municipal vigente.
-
-- **Buenas prácticas profesionales**  
-  El usuario se compromete a utilizar el plugin siguiendo las buenas prácticas de la arquitectura chilena y el Código de Ética del Colegio de Arquitectos de Chile.
-
-- **No oficial**  
-  Los outputs generados por este plugin **NO constituyen** un informe técnico oficial, ni un permiso de edificación, ni una aprobación de la Dirección de Obras Municipales (DOM). Siempre deben ser revisados y firmados por un arquitecto responsable.
-
-- **Sin garantía**  
-  El software se entrega “TAL CUAL” (AS IS), sin ninguna garantía de ningún tipo, expresa o implícita. KA URBE IT no se hace responsable por errores, omisiones, daños o consecuencias derivadas del uso de este plugin.
-
-### 3. Atribución requerida  
-En cualquier uso público o comercial debes incluir la siguiente mención visible:
-
-> “Desarrollado por **KA URBE IT** – www.kaurbe.cl  
-> Architecture Studio OGUC Chile Edition (Licencia Pública Referencial)”
-
-### 4. Contacto  
-KA URBE IT  
-www.kaurbe.cl  
-Santiago, Chile
-
----
-
-**Desarrollado por KA URBE IT**  
-www.kaurbe.cl  
-Abril 2026
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
