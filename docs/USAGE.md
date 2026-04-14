@@ -6,7 +6,7 @@
 2. Load the plugin from `.codex-plugin/plugin.json`.
 3. Point Codex to the repo so it can resolve `skills/` and `references/`.
 4. Use `references/normative-registry.yml` as the first stop when a question depends on source hierarchy or vigency.
-5. Use `references/source-of-truth/` to recover missing data when the registry is not enough.
+5. Use `references/source-of-truth/` to recover missing data when the registry is not enough, while respecting source category.
 
 ## Example prompts
 

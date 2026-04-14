@@ -69,5 +69,5 @@ This repository uses a source hierarchy to prevent secondary or contextual sourc
 - If source hierarchy is ambiguous, default to the more conservative classification.
 - Predial or communal queries must contrast the official norm with the local instrument before giving a categorical answer.
 - Structural, electrical, sanitary, or environmental claims must be checked against the technically competent source before stating a conclusion.
-- Skills may use `references/source-of-truth/` as the recovery directory for missing data.
+- Skills may use `references/source-of-truth/` as the curated recovery directory for missing data.
 - Skills should follow `references/source-lookup-protocol.md` when recovering missing data.

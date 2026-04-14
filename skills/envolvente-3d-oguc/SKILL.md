@@ -9,13 +9,14 @@ Use this skill for a conceptual envelope study when the user wants to understand
 
 ## Operative steps
 
-1. Identify the lot, terrain area, and any known zoning limits.
-2. Summarize the governing envelope constraints.
-3. Express the result as:
+1. Check `references/normative-registry.yml` and `references/source-lookup-protocol.md` before framing the envelope.
+2. Identify the lot, terrain area, and any known zoning limits.
+3. Summarize the governing envelope constraints.
+4. Express the result as:
    - textual massing notes
    - a simple volume table
    - open questions for the PRC or DOM
-4. If a 3D diagram is helpful, describe it in text rather than pretending to render software output.
+5. If a 3D diagram is helpful, describe it in text rather than pretending to render software output.
 
 ## Output shape
 
@@ -29,3 +30,4 @@ Use this skill for a conceptual envelope study when the user wants to understand
 
 - Do not claim a certified CAD or HTML 3D output.
 - Treat the result as conceptual until a formal zoning source is verified.
+- If the local instrument is missing, recover it from `references/source-of-truth/` and identify the source category.

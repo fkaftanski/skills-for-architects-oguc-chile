@@ -9,9 +9,10 @@ Use this skill when the user needs a first-pass classification screening for ess
 
 ## Operative steps
 
-1. Identify the proposed use and any occupancy-critical context.
-2. Screen whether the use may fall under essential-building treatment.
-3. Summarize the likely consequences for review and further technical verification.
+1. Check `references/normative-registry.yml` and `references/source-lookup-protocol.md` before using DS 61 as the governing frame.
+2. Identify the proposed use and any occupancy-critical context.
+3. Screen whether the use may fall under essential-building treatment.
+4. Summarize the likely consequences for review and further technical verification.
 
 ## Output shape
 
@@ -26,3 +27,4 @@ Use this skill when the user needs a first-pass classification screening for ess
 - Do not claim a final classification without source verification.
 - Use cautious language: "may qualify", "requires confirmation", "needs review".
 - Do not treat this as a structural design skill; it is a screening and classification aid only.
+- If the applicable category is not verified, recover the relevant source from `references/source-of-truth/` and keep the result provisional.

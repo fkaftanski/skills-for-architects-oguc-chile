@@ -9,13 +9,14 @@ Use this skill when the user asks about strengthening, retrofit, or reinforcemen
 
 ## Operative steps
 
-1. Identify whether the question is about diagnosis, retrofit intent, or material change.
-2. Ask for the smallest useful evidence set:
+1. Check `references/normative-registry.yml` and `references/source-lookup-protocol.md` before framing the technical basis.
+2. Identify whether the question is about diagnosis, retrofit intent, or material change.
+3. Ask for the smallest useful evidence set:
    - age of the building
    - structural system if known
    - visible pathologies
    - scope of intervention
-3. Summarize likely risk areas and required specialist review.
+4. Summarize likely risk areas and required specialist review.
 
 ## Output shape
 
@@ -29,3 +30,4 @@ Use this skill when the user asks about strengthening, retrofit, or reinforcemen
 
 - Do not propose reinforcement design details as final engineering advice.
 - Keep the answer at screening level unless the user supplies a formal structural basis.
+- If the technical basis is incomplete, recover the relevant source from `references/source-of-truth/` and defer design conclusions to the competent structural professional.

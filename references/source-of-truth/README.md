@@ -1,13 +1,13 @@
 # Source of Truth
 
-This directory groups authoritative portals that skills may use to recover missing data.
+This directory groups reviewed portals and repositories that skills may use to recover missing data.
 
 ## Use rules
 
 - Prefer primary legal sources first.
 - Use official interpretive sources only when the legal text is incomplete or the question is about application.
 - Use official operational or referential portals to locate, confirm, or cross-check data.
-- Do not treat gremial or sectoral sources as canonical normative authority.
+- Do not treat gremial or sectoral sources in this directory as canonical normative authority.
 
 ## Normative official sources
 
@@ -65,3 +65,4 @@ This directory groups authoritative portals that skills may use to recover missi
 - Use the service portals only to locate or support verification.
 - Treat gremial sources as context unless the user explicitly asks for sectoral opinion.
 - If a source is not in this directory, treat it as non-core until reviewed.
+- This directory is not flat in authority: always apply `references/source-policy.md` and `references/source-lookup-protocol.md`.

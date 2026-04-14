@@ -9,14 +9,15 @@ Use this skill when the user needs a first-pass technical memo rather than a ful
 
 ## Operative steps
 
-1. Summarize the request in plain language.
-2. State the input package and missing items.
-3. Organize findings into:
+1. Check `references/source-lookup-protocol.md` when the memo includes normative or technical claims.
+2. Summarize the request in plain language.
+3. State the input package and missing items.
+4. Organize findings into:
    - facts
    - assumptions
    - risks
    - recommendations
-4. Keep language concise and professional.
+5. Keep language concise and professional.
 
 ## Output shape
 
@@ -31,3 +32,4 @@ Use this skill when the user needs a first-pass technical memo rather than a ful
 
 - Do not overclaim certainty.
 - Separate verified data from inferred data.
+- Identify when the memo relies on primary, interpretive, operational, referential, or technical sources.

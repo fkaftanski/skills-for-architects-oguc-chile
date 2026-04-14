@@ -9,13 +9,14 @@ Use this skill to detect document gaps, incomplete citations, and missing decisi
 
 ## Operative steps
 
-1. List the expected package for the user’s request type.
-2. Compare it with the provided inputs.
-3. Mark items as:
+1. Check `references/normative-registry.yml` when the package depends on a known legal or technical body.
+2. List the expected package for the user’s request type.
+3. Compare it with the provided inputs.
+4. Mark items as:
    - present
    - missing
    - needs verification
-4. Report blockers first.
+5. Report blockers first.
 
 ## Output shape
 
@@ -30,3 +31,4 @@ Use this skill to detect document gaps, incomplete citations, and missing decisi
 
 - This is a completeness check, not a legal opinion.
 - Prefer a short actionable list over a long narrative.
+- If a cited source appears in the package, identify whether it is primary, interpretive, operational, referential, or technical.
