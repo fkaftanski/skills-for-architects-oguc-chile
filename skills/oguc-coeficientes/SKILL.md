@@ -32,3 +32,4 @@ Use this skill when the user asks for occupancy coefficient, constructability, s
 - Do not invent PRC values.
 - Do not claim DOM approval.
 - Keep units in metric form and consistent.
+- If the result depends on an unverified IPT or municipal ordinance, keep it provisional.

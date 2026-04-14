@@ -26,3 +26,4 @@ Use this skill for a first-pass seismic screening when the user provides locatio
 
 - Do not provide a structural design.
 - Do not invent zone values or coefficients without a source.
+- If you need a design-grade conclusion, defer to the competent structural professional and the verified technical source.

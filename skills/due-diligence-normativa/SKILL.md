@@ -33,3 +33,4 @@ Use this skill for property, municipal, or document due diligence in Chile.
 - Do not state legal conclusions as fact when the evidence is incomplete.
 - Avoid fixed legal dates unless the user supplied them or you are quoting a dated source.
 - Do not imply that this replaces a lawyer, notary, or architect review.
+- State whether each cited source is primary legal, official interpretive, official operational, referential, or technical reference.

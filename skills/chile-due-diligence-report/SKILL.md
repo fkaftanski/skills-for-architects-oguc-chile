@@ -31,3 +31,4 @@ Use this skill when the user wants a consolidated due diligence report rather th
 
 - Do not present the report as a legal opinion.
 - If the source package is incomplete, say so explicitly.
+- Identify the source type used for each major finding.

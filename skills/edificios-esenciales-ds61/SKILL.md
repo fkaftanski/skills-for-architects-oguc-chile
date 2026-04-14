@@ -25,3 +25,4 @@ Use this skill when the user needs a first-pass classification screening for ess
 
 - Do not claim a final classification without source verification.
 - Use cautious language: "may qualify", "requires confirmation", "needs review".
+- Do not treat this as a structural design skill; it is a screening and classification aid only.

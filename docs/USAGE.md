@@ -5,6 +5,7 @@
 1. Place the repository in a local workspace.
 2. Load the plugin from `.codex-plugin/plugin.json`.
 3. Point Codex to the repo so it can resolve `skills/` and `references/`.
+4. Use `references/normative-registry.yml` as the first stop when a question depends on source hierarchy or vigency.
 
 ## Example prompts
 
@@ -27,3 +28,5 @@
 2. Confirm `.codex-plugin/plugin.json` exists and is valid JSON.
 3. Ensure docs do not reference obsolete Claude-specific paths.
 4. Verify the repo tree matches the documentation.
+5. For any normative response, identify the source category before answering.
+6. When a rule or decree is updated, add the change to `references/change-log.md` and the registry.

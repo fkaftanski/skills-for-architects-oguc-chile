@@ -9,6 +9,19 @@ This repository packages Chile-focused architectural workflows as a Codex plugin
 - Preliminary technical reporting
 - Compliance and document-gap checks
 
+## Source policy
+
+- Primary legal text wins over any summary.
+- Official interpretive sources are valid only when identified as interpretive.
+- Operational or referential official portals support the answer but do not replace the rule.
+- Sectoral or secondary sources must never be treated as canonical.
+- If the municipal instrument, IPT, or specialty norm is not verified, the answer must stay provisional.
+
+See:
+- [`references/source-policy.md`](/home/fkaftanski/skills-for-architects-oguc-chile/references/source-policy.md)
+- [`references/normative-registry.yml`](/home/fkaftanski/skills-for-architects-oguc-chile/references/normative-registry.yml)
+- [`references/source-directory-reviewed.md`](/home/fkaftanski/skills-for-architects-oguc-chile/references/source-directory-reviewed.md)
+
 ## Install
 
 1. Open the repository locally.
@@ -70,3 +83,4 @@ Summarize a conceptual OGUC envelope for this lot and identify open zoning quest
 - Regulatory conclusions require source verification.
 - Legal or professional responsibility remains with the licensed professional in charge.
 - If a PRC, OGUC article, or municipal rule is not directly supplied or verified, mark it as pending verification rather than guessing.
+- For structural, electrical, sanitary, environmental, or patrimonial matters, contrast the primary legal text with the technically competent source before concluding.

@@ -1,0 +1,73 @@
+categories:
+  primary_legal:
+    definition: Official legal or regulatory text published by the competent authority or official legal repository.
+    confidence: highest
+    use_cases:
+      - binding norm
+      - baseline regulatory text
+      - explicit legal wording
+    prohibitions:
+      - replace with summaries
+      - use blogs or commentary as substitutes
+    priority: 1
+  official_interpretive:
+    definition: Official circulars, instructions, or interpretive guidance issued by the competent authority.
+    confidence: high
+    use_cases:
+      - application criteria
+      - administrative interpretation
+      - operational guidance
+    prohibitions:
+      - treat as the law itself when interpretive
+    priority: 2
+  official_operational:
+    definition: Official operational portals, service desks, or technical platforms used to process or query official procedures.
+    confidence: medium_high
+    use_cases:
+      - forms
+      - status checks
+      - submission workflows
+    prohibitions:
+      - cite as the source of the legal rule itself
+    priority: 3
+  official_referential:
+    definition: Official maps, visors, indexes, or search tools that provide reference context but are not binding norms.
+    confidence: medium
+    use_cases:
+      - locate IPT
+      - visualize boundaries
+      - orient the user
+    prohibitions:
+      - convert referential data into binding values without verifying the underlying source
+    priority: 4
+  technical_reference:
+    definition: Technical standards, registries, and competent technical references from recognized technical bodies.
+    confidence: medium_high
+    use_cases:
+      - engineering
+      - installations
+      - performance criteria
+      - technical methodology
+    prohibitions:
+      - present as legal authority unless incorporated by the framework
+    priority: 5
+  sectoral_secondary:
+    definition: Sectoral or gremial sources useful for practice but not authoritative normative sources.
+    confidence: medium_low
+    use_cases:
+      - context
+      - market practices
+      - industry interpretation
+    prohibitions:
+      - use as basis for binding conclusions
+    priority: 6
+  exclude_from_core:
+    definition: Sources useful for context but excluded from automatic normative answers.
+    confidence: low
+    use_cases:
+      - background
+      - external commentary
+      - non-authoritative context
+    prohibitions:
+      - use as primary normative source
+    priority: 7

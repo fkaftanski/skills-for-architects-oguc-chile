@@ -29,3 +29,4 @@ Use this skill when the user asks for minimum parking requirements or access-rel
 
 - Do not invent the applicable parking ratio.
 - If the use is ambiguous, ask for clarification or give a range only if clearly labeled as provisional.
+- Treat this as an accessibility and parking review, not an energy or sustainability skill.
