@@ -1,90 +1,112 @@
 # Architecture Studio - OGUC Chile Edition
 
-This repository packages Chile-focused architectural workflows as a Codex plugin with reusable skills, references, and documentation.
+This repository is a Codex-oriented knowledge package for Chilean architecture, urbanism, and related technical review workflows. It combines reusable skills, a normative registry, a source hierarchy, and a curated recovery directory for missing data.
 
-## What it does
+## Beta status and scope
 
-- First-pass OGUC and PRC analysis
-- Normative due diligence
-- Preliminary technical reporting
-- Compliance and document-gap checks
+This repository is in beta.
+
+It is designed for:
+
+- first-pass OGUC and PRC review
+- normative due diligence
+- preliminary technical reporting
+- document and compliance gap checks
+- screening-level structural, accessibility, energy, and envelope workflows
+
+It is not designed to replace:
+
+- municipal verification
+- local instrument review
+- specialty calculations
+- professional judgment by the competent architect, engineer, or advisor
 
 ## Source policy
 
-- Primary legal text wins over any summary.
-- Official interpretive sources are valid only when identified as interpretive.
-- Operational or referential official portals support the answer but do not replace the rule.
-- Sectoral or secondary sources must never be treated as canonical.
-- If the municipal instrument, IPT, or specialty norm is not verified, the answer must stay provisional.
+The repository uses a strict source hierarchy.
 
-See:
+- Primary legal sources outrank every other category.
+- Official interpretive sources may guide application, but do not replace the legal text.
+- Official operational and referential sources are used to locate, verify, or support data, not to create binding rules.
+- Technical references support specialty screening, but do not become legal authority unless the legal framework incorporates them.
+- Sectoral or gremial sources are context only.
+
+Core files:
+
 - [`references/source-policy.md`](/home/fkaftanski/skills-for-architects-oguc-chile/references/source-policy.md)
+- [`references/source-categories.yml`](/home/fkaftanski/skills-for-architects-oguc-chile/references/source-categories.yml)
 - [`references/normative-registry.yml`](/home/fkaftanski/skills-for-architects-oguc-chile/references/normative-registry.yml)
-- [`references/source-directory-reviewed.md`](/home/fkaftanski/skills-for-architects-oguc-chile/references/source-directory-reviewed.md)
-- [`references/source-of-truth/`](/home/fkaftanski/skills-for-architects-oguc-chile/references/source-of-truth)
 - [`references/source-lookup-protocol.md`](/home/fkaftanski/skills-for-architects-oguc-chile/references/source-lookup-protocol.md)
+- [`references/source-of-truth/README.md`](</home/fkaftanski/skills-for-architects-oguc-chile/references/source-of-truth/README.md>)
 
-## Install
-
-1. Open the repository locally.
-2. Load the plugin from `.codex-plugin/plugin.json`.
-3. Point Codex at the repository root so it can read `skills/`, `references/`, and `docs/`.
-
-## Repository structure
+## Current repository structure
 
 ```text
 .
 ├── .codex-plugin/
 ├── AGENTS.md
+├── FINAL_AUDIT_REPORT.md
+├── MIGRATION_REPORT.md
 ├── docs/
 ├── references/
-├── references/source-of-truth/
-├── skills/
-├── LICENSE
-└── MIGRATION_REPORT.md
+│   ├── normative-registry.yml
+│   ├── source-policy.md
+│   ├── source-categories.yml
+│   ├── source-directory-reviewed.md
+│   ├── source-lookup-protocol.md
+│   ├── source-of-truth/
+│   └── domain folders
+└── skills/
 ```
 
-## Available skills
+The active plugin manifest is [`/.codex-plugin/plugin.json`](/home/fkaftanski/skills-for-architects-oguc-chile/.codex-plugin/plugin.json).
 
-- `oguc-coeficientes`
-- `due-diligence-normativa`
-- `chile-due-diligence-report`
-- `prc-rasantes-altura`
-- `informe-tecnico-preliminar`
-- `checklist-cumplimiento`
-- `nch433-analisis`
-- `nch461-refuerzo`
-- `ces-calculo`
-- `estacionamientos-ds-50`
-- `edificios-esenciales-ds61`
-- `envolvente-3d-oguc`
+The current skill surface is documented in [`skills/README.md`](/home/fkaftanski/skills-for-architects-oguc-chile/skills/README.md).
 
-## How to use
+## Real compatibility
 
-Use the skill that matches the task, then provide the minimum useful inputs.
+Supported target:
 
-Examples:
+- Codex or a local workflow that can read this repository as a file-based plugin/skills package
 
-```text
-Analyze this site for OGUC coefficients using the area and zoning note provided.
-Prepare a normative due diligence summary for this Rol SII and list missing documents.
-Consolidate the due diligence findings into a client-ready risk report.
-Review rasantes and height constraints for this PRC excerpt.
-Draft a preliminary technical report with assumptions, findings, and risks.
-Run a compliance checklist and prioritize missing documents.
-Provide a first-pass NCh433 seismic screening for this building.
-Screen the retrofit implications of this existing structure under NCh461.
-Prepare a preliminary CES-oriented energy review and identify improvement levers.
-Estimate parking and accessibility implications under DS 50 for this mixed-use project.
-Screen whether this use may qualify as an essential building under DS 61.
-Summarize a conceptual OGUC envelope for this lot and identify open zoning questions.
-```
+Partially usable:
 
-## Limits
+- other AI environments that can consume the markdown files manually
 
-- This repository supports technical review, not final municipal approval.
-- Regulatory conclusions require source verification.
-- Legal or professional responsibility remains with the licensed professional in charge.
-- If a PRC, OGUC article, or municipal rule is not directly supplied or verified, mark it as pending verification rather than guessing.
-- For structural, electrical, sanitary, environmental, or patrimonial matters, contrast the primary legal text with the technically competent source before concluding.
-- If missing data must be recovered, use `references/source-of-truth/` and follow `references/source-lookup-protocol.md`.
+Not guaranteed:
+
+- one-click installation in third-party desktop tools
+- automatic plugin discovery outside the Codex-oriented structure
+- any environment that expects the old Claude plugin format
+
+For actual usage and validation steps, see [`docs/USAGE.md`](/home/fkaftanski/skills-for-architects-oguc-chile/docs/USAGE.md).
+
+## System limits
+
+- Predial and communal answers remain provisional until the applicable local instrument is verified.
+- Structural, electrical, sanitary, environmental, patrimonial, and similar specialty matters require contrast with the competent technical source and the professional competent for the matter.
+- The repository is intentionally screening-oriented in several domains.
+- The recovery directory `references/source-of-truth/` is curated, but not flat in authority. Skills must still apply the source hierarchy.
+
+## Maintaining vigency
+
+This repository does not rely on hardcoded claims of vigency without a control mechanism.
+
+When a norm, decree, circular, or technical frame changes:
+
+1. update [`references/normative-registry.yml`](/home/fkaftanski/skills-for-architects-oguc-chile/references/normative-registry.yml)
+2. update [`references/change-log.md`](/home/fkaftanski/skills-for-architects-oguc-chile/references/change-log.md)
+3. run `make validate-registry`
+4. review impacted skills and docs
+
+The registry validator is defined in [`scripts/validate_registry.py`](/home/fkaftanski/skills-for-architects-oguc-chile/scripts/validate_registry.py).
+
+## Professional warning
+
+This repository is a technical and documentary support layer.
+
+- It does not issue permits, approvals, or official rulings.
+- It does not replace professional review, signature, or responsibility.
+- If a source is missing or not verified, the answer should remain explicitly provisional.
+
+The reusable wording lives in [`references/disclaimer-profesional-chile.md`](/home/fkaftanski/skills-for-architects-oguc-chile/references/disclaimer-profesional-chile.md).

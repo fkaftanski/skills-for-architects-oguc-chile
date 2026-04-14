@@ -20,11 +20,12 @@ The current package is approvable as a Codex-oriented normative support reposito
    - `references/source-lookup-protocol.md`
    - `references/source-of-truth/`
 3. Added this file as the final audit deliverable.
+4. Rewrote `README.md` so the public layer matches the audited state, beta scope, source policy, compatibility limits, and vigency workflow.
 
 ## Inconsistencies not corrected
 
-- Exact canonical URLs remain `null` for several registry entries.
-Reason: filling them without direct verification would reduce legal reliability rather than improve it.
+- Several canonical URLs still point to conservative repository-level landing pages rather than deep-linked official documents.
+Reason: using stable official landing pages is safer than inventing deep links that have not been revalidated in this audit pass.
 
 - Some specialty domains remain at screening level instead of design-grade workflows.
 Reason: the repository is intentionally conservative and does not pretend to replace specialty practice.
