@@ -17,6 +17,8 @@ This repo packages Chile-specific architectural workflows for Codex.
 - Plugin manifest: `.codex-plugin/plugin.json`
 - Skills: `skills/<skill-name>/SKILL.md`
 - References: `references/`
+- Recovery directory: `references/source-of-truth/`
+- Lookup protocol: `references/source-lookup-protocol.md`
 - Documentation: `docs/`
 
 ## Validation
@@ -25,6 +27,7 @@ This repo packages Chile-specific architectural workflows for Codex.
 - Keep each skill narrowly scoped and operational.
 - Check that the README matches the actual tree.
 - Prefer explicit gaps over implied certainty.
+- Resolve missing data through the source lookup protocol before answering.
 
 ## Editorial restrictions
 
@@ -33,6 +36,7 @@ This repo packages Chile-specific architectural workflows for Codex.
 - Keep references to OGUC/PRC/NCh/DS precise and conservative.
 - Do not use hardcoded vigency phrases unless they are attached to a registry entry or a dated source.
 - For predial or communal questions, contrast the official norm with the local instrument before concluding.
+- Do not treat the recovery directory as a normative source; it is a lookup aid.
 
 ## Done criteria
 
@@ -41,3 +45,4 @@ This repo packages Chile-specific architectural workflows for Codex.
 - Documentation explains install, use, and limits.
 - No obsolete Claude-specific structure is required for basic use.
 - Any normative answer can name its source category and hierarchy.
+- Missing data can be recovered from `references/source-of-truth/` using a documented sequence.

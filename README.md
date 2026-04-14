@@ -21,6 +21,8 @@ See:
 - [`references/source-policy.md`](/home/fkaftanski/skills-for-architects-oguc-chile/references/source-policy.md)
 - [`references/normative-registry.yml`](/home/fkaftanski/skills-for-architects-oguc-chile/references/normative-registry.yml)
 - [`references/source-directory-reviewed.md`](/home/fkaftanski/skills-for-architects-oguc-chile/references/source-directory-reviewed.md)
+- [`references/source-of-truth/`](/home/fkaftanski/skills-for-architects-oguc-chile/references/source-of-truth)
+- [`references/source-lookup-protocol.md`](/home/fkaftanski/skills-for-architects-oguc-chile/references/source-lookup-protocol.md)
 
 ## Install
 
@@ -36,6 +38,7 @@ See:
 ├── AGENTS.md
 ├── docs/
 ├── references/
+├── references/source-of-truth/
 ├── skills/
 ├── LICENSE
 └── MIGRATION_REPORT.md
@@ -84,3 +87,4 @@ Summarize a conceptual OGUC envelope for this lot and identify open zoning quest
 - Legal or professional responsibility remains with the licensed professional in charge.
 - If a PRC, OGUC article, or municipal rule is not directly supplied or verified, mark it as pending verification rather than guessing.
 - For structural, electrical, sanitary, environmental, or patrimonial matters, contrast the primary legal text with the technically competent source before concluding.
+- If missing data must be recovered, use `references/source-of-truth/` and follow `references/source-lookup-protocol.md`.

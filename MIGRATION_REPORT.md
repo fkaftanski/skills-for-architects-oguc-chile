@@ -24,6 +24,7 @@ It was then expanded with a normative source policy, a registry, and a review of
 - Added source policy, source directory review, normative registry, disclaimer, and change log.
 - Added a `references/source-of-truth/` directory for authoritative source recovery.
 - Added a source lookup protocol for skills to follow when resolving missing data.
+- Updated README, AGENTS, and docs to reference the source-of-truth workflow explicitly.
 
 ## Files created
 

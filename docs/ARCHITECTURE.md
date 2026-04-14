@@ -33,3 +33,4 @@ This repository packages Chile-focused architectural assistance as a Codex plugi
 - This repo does not attempt to encode all OGUC or PRC rules exhaustively.
 - This repo does not replace professional review or municipal approval.
 - This repo does not promote secondary or sectoral sources to primary status.
+- This repo treats `references/source-of-truth/` as a recovery aid, not a normative authority.
