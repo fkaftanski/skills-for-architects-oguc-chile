@@ -23,6 +23,7 @@ It was then expanded with a normative source policy, a registry, and a review of
 - Reworded documentation to remove unsupported claims and Claude-specific installation language.
 - Added source policy, source directory review, normative registry, disclaimer, and change log.
 - Added a `references/source-of-truth/` directory for authoritative source recovery.
+- Added a source lookup protocol for skills to follow when resolving missing data.
 
 ## Files created
 
@@ -48,6 +49,7 @@ It was then expanded with a normative source policy, a registry, and a review of
 - `references/disclaimer-profesional-chile.md`
 - `references/change-log.md`
 - `references/source-of-truth/README.md`
+- `references/source-lookup-protocol.md`
 - `docs/ARCHITECTURE.md`
 - `docs/USAGE.md`
 - `docs/NORMATIVE_AUDIT.md`

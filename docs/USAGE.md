@@ -31,3 +31,4 @@
 5. For any normative response, identify the source category before answering.
 6. When a rule or decree is updated, add the change to `references/change-log.md` and the registry.
 7. When data is missing, use `references/source-of-truth/` to locate a verified official source before answering.
+8. Follow `references/source-lookup-protocol.md` when choosing between primary, interpretive, operational, referential, technical, or secondary sources.
